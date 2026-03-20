@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Store</title>
+    <style>
+    
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #262626;
+            color: white;
+            min-height: 100vh;
+        }
+
+        h1 { color: #fff; }
+        h2 { color: #ffd700; padding-left: 10px; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+
+        .logo{
+          padding: 5px;
+          color: yellow;
+          background-color: black;
+          padding-left: 13px;
+          border-radius: 6px;
+        }
+
+        audio {
+            width: 100%;
+            height: 30px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        .about{
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+
+   <div class="logo">
+     <h1>Songs</h1>
+   </div>
+ 
+    <h2>Trending Songs</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuu4lzgpJJ13pm-Xf2mvqE5NNEFqfdNb3ip8kuwNoe-odJOaC59YwI_rOD&s=10">
+           Shararat 
+            <audio controls>
+                <source src="C:\Users\thaka\Downloads\WhatsApp Audio 2026-03-20 at 3.27.46 PM (1).mpeg">
+            </audio>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKrA50-2SFVJwtwDj_04aQ9HbsN2PDDD3erGdOiJkYyg&s">
+            Dooron Dooron
+            <audio controls>
+                <source src="C:\Users\thaka\Downloads\WhatsApp Audio 2026-03-20 at 3.27.46 PM (2).mpeg">
+            </audio>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTvo1hf4bSlhF8VCljFAUbNjLP2-3ERVk2EYDUChXl0A&s=10">
+            Saiyaara
+            <audio controls>
+                <source src="C:\Users\thaka\Downloads\WhatsApp Audio 2026-03-20 at 3.27.46 PM (3).mpeg">
+            </audio>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVwxxIzwrNznOKM_2WK6LiTlOvdpxBE8Swl-vyAAdL2g&s=10">
+            Na sata
+            <audio controls>
+                <source src="C:\Users\thaka\Downloads\WhatsApp Audio 2026-03-20 at 3.27.48 PM (2).mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <h2>Famous Artist</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="arjit.jpg">
+            Arijit Singh
+        </div>
+
+    
+        <div class="card">
+            <img src="C:\Users\thaka\OneDrive\Desktop\ariana.jpg">
+             Ariana Grande
+        </div>
+    </div>
+
+
+
+   <Div class="card">
+<div class="grid">
+
+    <img src="C:\Users\thaka\OneDrive\Desktop\taylor.jpg">
+     Taylor Swift
+ <div class="music-row">
+  <p> Style - taylor swift</p>
+    <audio controls>
+      <source src="C:\Users\thaka\Downloads\Taylor Swift - Style.mp3">
+      </audio>
+
+<p> cruel summer - taylor swift</p>
+    <audio controls>
+      <source src="C:\Users\thaka\Downloads\Taylor Swift - Cruel Summer.mp3">
+    </audio>
+
+
+<p> lover - taylor swift</p>
+<audio controls>
+      <source src="C:\Users\thaka\Downloads\Taylor Swift - Lover.mp3">
+    </audio>
+
+<p> you belong with me - taylor swift</p>
+<audio controls>
+      <source src="C:\Users\thaka\Downloads\Taylor Swift - You Belong With Me.mp3">
+    </audio>
+
+
+<p> daylight - taylor swift</p>
+<audio controls>
+      <source src="C:\Users\thaka\Downloads\Taylor Swift - Daylight (Original Mix).mp3">
+    </audio>
+
+
+   </div>
+  </div>
+
+
+   <div class="card">
+     <div class="grid">
+
+       <img src="C:\Users\thaka\OneDrive\Desktop\selina.jpg">
+       Selena Gomez
+
+<div class="music-row">
+  <p> Who Says - Selena Gomez</p>
+    <audio controls>
+      <source src="C:\Users\thaka\Downloads\Selena Gomez - Who Says (Lyrics).mp3">
+      </audio>
+
+<p> Good for you - Selena Gomez</p>
+    <audio controls>
+      <source src="C:\Users\thaka\Downloads\Selena Gomez - Good For You ft. A$AP Rocky (Official Audio).mp3">
+    </audio>
+
+
+<p> Calm down - Selena Gomez</p>
+<audio controls>
+      <source src="C:\Users\thaka\Downloads\Rema, Selena Gomez - Calm Down (Official Music Video).mp3">
+    </audio>
+
+<p> It Ain't Me - Selena Gomez</p>
+<audio controls>
+      <source src="C:\Users\thaka\Downloads\It Ain't Me (with Selena Gomez) - Kygo.mp3">
+    </audio>
+
+
+<p> Lose you to love me - Selena Gomez</p>
+<audio controls>
+      <source src="C:\Users\thaka\Downloads\Selena Gomez - Lose You To Love Me (Lyrics).mp3">
+    </audio>
+
+
+
+      </div>
+    </div>
+
+    <h2>Old songs</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://i.scdn.co/image/ab67616d0000b273db2833963d13625b0cdf993e">
+           Mai koi aaisa geet gaau 
+            <audio controls>
+                <source src="C:\Users\thaka\Downloads\WhatsApp Audio 2026-03-20 at 3.27.47 PM.mpeg">
+            </audio>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWHAl21GhHzoWgs81lpvBRpx5dII0TpXtFZw-8fhlXQ&s=10">
+            Yeh raatein 
+            <audio controls>
+                <source src="C:\Users\thaka\Downloads\WhatsApp Audio 2026-03-20 at 3.27.48 PM (1).mpeg">
+            </audio>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQMvuIzNWiVGFWMb1Lp4E1IlEYuAfh4p9MZOB21CaioMtc6LKHiXIeAmE&s=10">
+            Pal pal dil ka pas 
+            <audio controls>
+                <source src="C:\Users\thaka\Downloads\WhatsApp Audio 2026-03-20 at 3.27.47 PM (2).mpeg">
+            </audio>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKk5x9bH093LGWE6vYVokRhOBzbT8jSpfpTHjgVucVkA&s=10">
+        Mera samne vali  khjdki ma
+            <audio controls>
+                <source src="C:\Users\thaka\Downloads\WhatsApp Audio 2026-03-20 at 3.27.47 PM (3).mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <div class="about">
+        <h1 align="center">About us</h1>
+        <p>Contact us : +91 9503734359</p>
+        <p>Email : rithemanthan5@gmail.com</p> 
+        <p>Join us on : Instagram, Facebook</p>
+    </div>
+
+</body>
+</html>
